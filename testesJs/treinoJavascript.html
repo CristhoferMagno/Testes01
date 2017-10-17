@@ -4,7 +4,26 @@
 	<meta charset="UTF-8"/>
 
 	<script type="text/javascript">
-		
+		var x = new String("texto, dentro, de texto");
+		document.writeln(x.length + "<br>");
+		document.writeln(x.charAt(4) + "<br>");
+		document.writeln(x.charAt(x.length - 2) + "<br>");
+		document.writeln(x.charCodeAt(4) +"<br>");
+		document.writeln(x.concat(" javascript") + "<br>");
+		document.writeln(String.fromCharCode(111,123,234) + "<br>");
+		document.writeln(x.indexOf("dentro") + "<br>");
+		document.writeln(x.lastIndexOf("texto") + "<br>");
+		document.writeln(x.replace("texto","txt") + "<br>");
+
+		document.writeln(x.substring(5,8) + "<br>");
+		document.writeln(x.substr(5,8) + "<br>");
+		document.writeln(x.slice(5,8) + "<br>");
+		document.writeln(x.split(",")[2] + "<br>");
+		document.writeln(x.toUpperCase() + "<br>");
+		document.writeln(x.toLowerCase() + "<br>");
+
+
+
 
 	</script>
 
