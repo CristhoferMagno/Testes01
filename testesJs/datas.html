@@ -4,12 +4,37 @@
 	<meta charset="utf-8"/>
 	<script type="text/javascript">
 		
+		var dias = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+
+		var mes = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro" ];
+
 		var data = new Date();
 		var data1 = new Date(123456);
 		var data2 = new Date("jul/20/20 02:30:35");
 		var data3 = new Date(2011, 2, 22, 4, 35, 30, 1234);
 		
-		alert(data);
+		//alert(data.getHours());//horas
+		//alert(data.getUTCHours());
+		//alert(data.getDate());//dia do mes
+		//alert(dias[data.getDay()]);//dia da semana
+		//alert(data.getFullYear());//ano com 4 dígitos
+		//alert(data.getMilliseconds());//retorna milisegungos
+		//alert(data.getMinutes());
+		//alert(mes[data.getMonth()]);//retorna o mes
+		//alert(data.getSeconds());//retorna segundos
+		//alert(data.getTime());//retorna todos milisegundos
+		//alert(data.getTimezoneOffset());//traz a diferença de horas do brasil com o hora GNT
+		//alert(Date.parse(data));
+
+		//data.setFullYear(2018);
+		//data.setDate(20);
+		//data.setMonth(4);
+
+		//alert(data.toDateString());
+		alert(data.toLocaleDateString());
+		//alert(data);
+
+
 
 	</script>
 </head>
