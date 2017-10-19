@@ -10,9 +10,24 @@ div#topo {
 img {
 	margin:0px;
 }
+
 div#sele {
 	width: 130px;
 	margin: auto;
+	background-color: rgba(0,0,0,.3);
+}
+
+div#sele a#uma{
+	width: 130px;
+	margin: auto;
 	background-color: yellow;
+	color: 
 	
+}
+div#sele a#casal {
+	width: 130px;
+	margin: auto;
+	background-color: green;
+	color: white;
+	text-align: center;
 }
